@@ -31,3 +31,11 @@ Os arquivos .conf são usados para configurar alguns parâmetros de script, como
 6. Configure todos os servidores Windows com o agente Zabbix instalado (incluindo o servidor da etapa 5), para executar o script UpdateZabbixAgent.ps1 todas as noites ou qualquer horário que você precisar.
 
 7. Finalizado!
+
+## Executando
+
+Download da versão mais recente:
+`powershell.exe -NoProfile -ExecutionPolicy bypass -File "C:\zabbix\DownloadUpdatedFiles.ps1"`
+
+Execução da Instalação/Atualização:
+`powershell.exe -NoProfile -ExecutionPolicy bypass -File "C:\zabbix\UpdateZabbixAgent.ps1"`
