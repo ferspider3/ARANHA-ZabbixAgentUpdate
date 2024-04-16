@@ -20,7 +20,7 @@ Os arquivos .conf são usados para configurar alguns parâmetros de script, como
 
 2. Crie um repositório central onde serão armazenados os binários, separados por arquitetura. Exemplo:
 
-'\\meudomínio.com\zabbix\win32' e '\\meudomínio.com\zabbix\win64'
+`\\meudomínio.com\zabbix\win32` e `\\meudomínio.com\zabbix\win64`
 
 3. Edite o arquivo example_zabbix.conf com o endereço e preferências do servidor Zabbix e copie-o para ambas as pastas (você pode renomeá-lo como quiser, basta verificar se o nome está configurado corretamente nos arquivos .conf).
 
