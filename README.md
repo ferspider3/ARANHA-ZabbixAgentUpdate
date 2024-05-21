@@ -6,9 +6,11 @@ Baseado no repositório: https://github.com/esserafael/PS-ZabbixAgentUpdate
 
 ## Informações Importantes
 
-UpdateZabbixAgent.ps1 – Este script deve ser executado em todos os servidores Windows em sua infraestrutura. Sugiro executá-lo como uma tarefa agendada, para que você possa facilmente implantar esta tarefa em todos os servidores com GPP (Preferências de Política de Grupo), ou se quiser executar a tarefa com um usuário personalizado, você terá que importar a tarefa em cada host, o que não é muito escalável.
+> [!NOTE]
+> UpdateZabbixAgent.ps1 – Este script deve ser executado em todos os servidores Windows em sua infraestrutura. Sugiro executá-lo como uma tarefa agendada, para que você possa facilmente implantar esta tarefa em todos os servidores com GPP (Preferências de Política de Grupo), ou se quiser executar a tarefa com um usuário personalizado, você terá que importar a tarefa em cada host, o que não é muito escalável.
 
-DownloadUpdatedFiles.ps1 - Este script deve ser executado regularmente em um servidor específico (pode ser um servidor de arquivos, ou qualquer coisa que possa acessar a URL do Zabbix, etc.), para baixar os binários mais recentes do agente do seu servidor Zabbix para um repositório central em sua rede, para fácil gerenciamento. É essencial que todos os seus servidores Windows possam acessar e ler este local na rede, ou as atualizações/instalações falharão.
+> [!NOTE]
+> DownloadUpdatedFiles.ps1 - Este script deve ser executado regularmente em um servidor específico (pode ser um servidor de arquivos, ou qualquer coisa que possa acessar a URL do Zabbix, etc.), para baixar os binários mais recentes do agente do seu servidor Zabbix para um repositório central em sua rede, para fácil gerenciamento. É essencial que todos os seus servidores Windows possam acessar e ler este local na rede, ou as atualizações/instalações falharão.
 
 O zabbix.conf é usado como modelo, então o script pode alterar o nome do host, etc.
 
